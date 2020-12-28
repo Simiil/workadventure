@@ -3,8 +3,7 @@
     {
      "export":
         {
-         "format":"json",
-         "target":"new_pub3.json"
+         "format":"json"
         }
     },
  "height":75,
@@ -589,6 +588,19 @@
                          "value":true
                         }]
                 }],
+         "tilewidth":32
+        }, 
+        {
+         "columns":15,
+         "firstgid":5009,
+         "image":"..\/..\/world-map-starterkit\/tiles_png\/community\/bytewerk\/cija_32x32_expansion for Pipoya_CC0.png",
+         "imageheight":4256,
+         "imagewidth":480,
+         "margin":0,
+         "name":"cija_32x32_expansion for Pipoya_CC0",
+         "spacing":0,
+         "tilecount":1995,
+         "tileheight":32,
          "tilewidth":32
         }],
  "tilewidth":32,

@@ -3,7 +3,8 @@
     {
      "export":
         {
-         "target":"."
+         "format":"json",
+         "target":"new_pub2.json"
         }
     },
  "height":100,
@@ -597,16 +598,6 @@
                          "value":true
                         }]
                 }],
-         "tilewidth":32
-        }, 
-        {
-         "columns":15,
-         "firstgid":5009,
-         "margin":0,
-         "name":"cija_32x32_expansion for Pipoya_CC0",
-         "spacing":0,
-         "tilecount":0,
-         "tileheight":32,
          "tilewidth":32
         }],
  "tilewidth":32,

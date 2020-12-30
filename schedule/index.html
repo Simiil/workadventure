@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Schedule Template | CodyHouse</title>
+</head>
+<body>
+  <header class="cd-main-header text-center flex flex-column flex-center">
+    <h1 class="text-xl">Zeitplan</h1>
+  </header>
+
+  <div class="cd-schedule cd-schedule--loading margin-top-lg margin-bottom-lg js-cd-schedule">
+    <div class="cd-schedule__timeline">
+      <ul>
+        <li><span>20:00</span></li>
+        <li><span>20:30</span></li>
+        <li><span>21:00</span></li>
+        <li><span>21:30</span></li>
+        <li><span>22:00</span></li>
+        <li><span>22:30</span></li>
+        <li><span>23:00</span></li>
+        <li><span>23:30</span></li>
+        <li><span>00:00</span></li>
+        <li><span>00:30</span></li>
+        <li><span>01:00</span></li>
+        <li><span>01:30</span></li>
+        <li><span>02:00</span></li>
+        <li><span>02:30</span></li>
+        <li><span>03:00</span></li>
+      </ul>
+    </div> <!-- .cd-schedule__timeline -->
+  
+    <div class="cd-schedule__events">
+      <ul>
+        <li class="cd-schedule__group">
+          <div class="cd-schedule__top-info"><span>Irish Pub</span></div>
+  
+          <ul>
+            <li class="cd-schedule__event">
+              <a data-start="22:00" data-end="23:00" data-content="event-abs-circuit" data-event="event-1" href="#0">
+                <em class="cd-schedule__name">Pub Quiz mit Lena & Alex</em>
+              </a>
+            </li>
+          </ul>
+        </li>
+  
+        <li class="cd-schedule__group">
+          <div class="cd-schedule__top-info"><span>Cocktailbar</span></div>
+  
+          <ul>
+            <li class="cd-schedule__event">
+              <a data-start="21:00" data-end="21:45"  data-content="event-rowing-workout" data-event="event-2" href="#0">
+                <em class="cd-schedule__name">Weinyoga mit Sabrina</em>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="cd-schedule__group">
+          <div class="cd-schedule__top-info"><span>Sektbar</span></div>
+  
+          <ul>
+            <li class="cd-schedule__event">
+              <a data-start="23:55" data-end="00:30" data-content="event-restorative-yoga" data-event="event-4" href="#0">
+                <em class="cd-schedule__name">Gemeinsames Anstoßen zum Neujahr</em>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  
+    <div class="cd-schedule-modal">
+      <header class="cd-schedule-modal__header">
+        <div class="cd-schedule-modal__content">
+          <span class="cd-schedule-modal__date"></span>
+          <h3 class="cd-schedule-modal__name"></h3>
+        </div>
+  
+        <div class="cd-schedule-modal__header-bg"></div>
+      </header>
+  
+      <div class="cd-schedule-modal__body">
+        <div class="cd-schedule-modal__event-info"></div>
+        <div class="cd-schedule-modal__body-bg"></div>
+      </div>
+  
+      <a href="#0" class="cd-schedule-modal__close text-replace">Close</a>
+    </div>
+  
+    <div class="cd-schedule__cover-layer"></div>
+  </div> <!-- .cd-schedule -->
+
+  <script src="assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

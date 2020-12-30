@@ -50,7 +50,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/zeit.de"
+                 "value":"https:\/\/cloud.datenhaft.de\/schedule\/"
                 }],
          "type":"tilelayer",
          "visible":true,

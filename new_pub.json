@@ -230,7 +230,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/games.cdn.famobi.com\/html5games\/0\/3d-darts\/v190\/?fg_domain=play.famobi.com&fg_aid=A1000-111&fg_uid=58bfd66f-ebc8-4b7e-be65-68ff573a11bf&fg_pid=e37ab3ce-88cd-4438-9b9c-a37df5d33736&fg_beat=514&original_ref=https%3A%2F%2Fplay.famobi.com%2F3d-darts"
+                 "value":"https:\/\/cdn.htmlgames.com\/AroundTheWorldDarts\/"
                 }],
          "type":"tilelayer",
          "visible":true,
